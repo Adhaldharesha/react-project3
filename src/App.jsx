@@ -12,6 +12,8 @@ import App from "./components/UR1"
 import URF from "./components/URF1.jsx"
 import Cal from "./components/UR2.jsx"
 import Items from "./components/URD3.jsx"
+import Squre from "./components/UM.jsx"
+import Counter from "./components/UCBp1.jsx"
 function APP(){
   return(
      <BrowserRouter>
@@ -30,6 +32,8 @@ function APP(){
       <Route path="/f" element={<URF/>}/>
       <Route path="/c"  element={<Cal/>}/>
       <Route path="/li" element={<Items/>}/>
+      <Route path="/sq" element={<Squre/>}/>
+      <Route path="/cr" element={<Counter/>}/>
       </Routes>
      </BrowserRouter>
   )
